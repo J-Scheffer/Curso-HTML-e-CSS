@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping text</title>
+
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            background-color: gray;
+        }
+
+        header{
+            background-color: white;
+            padding: 5px;
+            margin: 10px;
+        }
+        nav{
+            box-shadow:3px 3px 8px 1px rgba(0, 0, 0, 0.397);
+            background-color: gray;
+        }
+        nav > a{
+            color: aliceblue;
+            text-decoration: none;
+            margin: 50px;
+            padding: 3px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        footer{
+            background-color: black;
+            padding: 1px;
+            margin: 10px;
+            color: rgb(100, 173, 238);
+            text-align: center;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.29);
+        }
+
+        .cinza {
+            background-color: lightgray;
+            padding: 10px;
+            height: 200px;
+            margin-top: 25px;
+        }
+        aside{
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+    <header><h1>Meu site</h1>
+        <nav>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+        </nav>
+
+    </header>
+    <main>
+        <section id="assuntos">Esportes Politica Tecnologia</section>
+        <section id="noticias"></section>
+
+        <article class="cinza">
+
+            <h2>Titulo</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia id dolorum, quibusdam sit minima maiores harum nemo unde facere corrupti! Earum sit libero non veniam harum perferendis sapiente dicta nemo?</p>
+            <aside>Escrito por x pessoa</aside>
+        </article>
+
+        <article>
+        </article>
+    </main>
+    <footer>
+        Desenvolvido por &copy Joao Scheffer
+    </footer>
+</body>
+</html>
