@@ -1,5 +1,4 @@
-Exercícios do Curso em Vídeo
+# 📘 Exercícios do Curso em Vídeo
 
-<a href="Exercicios/desafio 2/index.html">Android<a/>
-
-<a href="Exercicios/cordel/cordel.html">Cordel<a/>
+- 📱 [Desafio 2 - Android](Exercicios/desafio%202/index.html)  
+- 📜 [Cordel Moderno](Exercicios/cordel/cordel.html)
